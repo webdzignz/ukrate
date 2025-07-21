@@ -26,7 +26,7 @@ const bonds: Bond[] = [
     yield: "5.875%",
     description: "Senior unsecured bond from one of the UK's largest banks with strong capital ratios and diversified revenue streams.",
     currency: "GBP",
-    logo: "/logo111.png",
+    logo: "/barclays.png",
     minInvestment: "£100,000"
   },
   {
@@ -74,7 +74,7 @@ const bonds: Bond[] = [
     yield: "5.750%",
     description: "Senior unsecured bond from the UK subsidiary of Santander Group with strong retail banking franchise and solid capital position.",
     currency: "GBP",
-    logo: "/logo111.png",
+    logo: "/santander.png",
     minInvestment: "£100,000"
   }
 ];
