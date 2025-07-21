@@ -200,36 +200,46 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-blue-50/30 to-white relative overflow-hidden">
+      <section className="pt-20 pb-16 relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+            alt="London Financial District"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#012169]/85 via-[#012169]/75 to-[#012169]/90"></div>
+        </div>
+        
         {/* Subtle UK flag elements */}
-        <div className="absolute top-0 right-0 w-96 h-96 opacity-5">
+        <div className="absolute top-0 right-0 w-96 h-96 opacity-10 z-10">
           <div className="absolute inset-0 bg-gradient-to-br from-[#012169] to-[#C8102E] transform rotate-12 -skew-x-12"></div>
         </div>
-        <div className="absolute bottom-0 left-0 w-64 h-64 opacity-5">
+        <div className="absolute bottom-0 left-0 w-64 h-64 opacity-10 z-10">
           <div className="absolute inset-0 bg-gradient-to-tr from-[#C8102E] to-[#012169] transform -rotate-12 skew-x-12"></div>
         </div>
         
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-20">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
               Institutional-Grade
-              <span className="block bg-gradient-to-r from-[#012169] to-blue-600 bg-clip-text text-transparent">Bond Investments</span>
+              <span className="block text-blue-200">Bond Investments</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+            <p className="text-xl text-gray-200 mb-8 leading-relaxed drop-shadow-sm">
               Access premium fixed-income opportunities typically reserved for institutional investors. 
               Professional portfolio management with transparent pricing and institutional execution.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => scrollToSection('products')}
-                className="bg-gradient-to-r from-[#012169] to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center justify-center"
+                className="bg-gradient-to-r from-white to-gray-100 text-[#012169] px-8 py-4 rounded-lg font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300 inline-flex items-center justify-center"
               >
                 View Investment Solutions
                 <ChevronRight className="w-5 h-5 ml-2" />
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="border-2 border-[#012169]/20 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gradient-to-r hover:from-blue-50/30 hover:to-transparent hover:border-[#012169]/40 transition-all duration-300"
+                className="border-2 border-white/30 text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 hover:border-white/50 backdrop-blur-sm transition-all duration-300"
               >
                 Schedule Consultation
               </button>
