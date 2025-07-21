@@ -413,53 +413,53 @@ function App() {
               <div 
                 key={index} 
                 onClick={handleBondClick}
-                className="border border-gray-200/50 rounded-xl p-6 hover:shadow-2xl transition-all duration-500 cursor-pointer hover:border-white/30 hover:scale-105 transform group relative overflow-hidden animate-in fade-in-50 slide-in-from-bottom-6 duration-800"
+                className="border border-gray-200/50 rounded-xl p-4 hover:shadow-2xl transition-all duration-500 cursor-pointer hover:border-white/30 hover:scale-105 transform group relative overflow-hidden animate-in fade-in-50 slide-in-from-bottom-6 duration-800"
                 style={{ 
                   backgroundColor: bondColors[bond.name],
                   animationDelay: `${200 + index * 100}ms` 
                 }}
               >
                 {/* Subtle gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
                 <div className="relative z-10">
-                  <div className="flex justify-between items-start mb-4">
+                  <div className="flex justify-between items-start mb-3">
                     <div className="flex items-center">
                       <img 
                         src={bond.logo} 
                         alt={`${bond.name} logo`}
                         className="w-6 h-6 mr-2 object-contain bg-white rounded p-0.5 shadow-sm group-hover:shadow-md transition-shadow duration-300"
                       />
-                      <h3 className="text-xl font-bold text-white group-hover:text-gray-100 transition-colors duration-300">{bond.name}</h3>
+                      <h3 className="text-lg font-bold text-white group-hover:text-gray-100 transition-colors duration-300">{bond.name}</h3>
                     </div>
-                    <span className="text-2xl font-bold text-white group-hover:text-gray-100 transition-colors duration-300 animate-pulse">{bond.yield}</span>
+                    <span className="text-xl font-bold text-white group-hover:text-gray-100 transition-colors duration-300 animate-pulse">{bond.yield}</span>
                   </div>
                   
-                  <div className="space-y-3 mb-4">
+                  <div className="space-y-2 mb-3">
                     <div className="flex justify-between">
-                      <span className="text-white/80">ISIN:</span>
-                      <span className="font-mono text-sm bg-white/20 text-white px-2 py-1 rounded">{bond.isin}</span>
+                      <span className="text-white/80 text-sm">ISIN:</span>
+                      <span className="font-mono text-xs bg-white/20 text-white px-1.5 py-0.5 rounded">{bond.isin}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-white/80">Rating:</span>
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-white/20 text-white shadow-sm">
+                      <span className="text-white/80 text-sm">Rating:</span>
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-white/20 text-white shadow-sm">
                         {bond.rating}
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-white/80">Coupon:</span>
-                      <span className="font-medium text-white">{bond.coupon}</span>
+                      <span className="text-white/80 text-sm">Coupon:</span>
+                      <span className="font-medium text-white text-sm">{bond.coupon}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-white/80">Maturity:</span>
-                      <span className="font-medium text-white">{bond.maturity}</span>
+                      <span className="text-white/80 text-sm">Maturity:</span>
+                      <span className="font-medium text-white text-sm">{bond.maturity}</span>
                     </div>
                   </div>
                   
-                  <p className="text-white/90 text-sm leading-relaxed mb-4">{bond.description}</p>
+                  <p className="text-white/90 text-xs leading-relaxed mb-3">{bond.description}</p>
                   
                   <div className="text-center">
-                    <span className="text-sm text-white font-medium group-hover:text-gray-100 transition-colors duration-300 flex items-center justify-center">
+                    <span className="text-xs text-white font-medium group-hover:text-gray-100 transition-colors duration-300 flex items-center justify-center">
                       Click for more information 
                       <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform duration-300" />
                     </span>
