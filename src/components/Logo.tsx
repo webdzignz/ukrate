@@ -26,15 +26,15 @@ const Logo: React.FC<LogoProps> = ({
   };
 
   const colorClasses = {
-    default: 'text-[#002868]',
+    default: 'text-[#012169]',
     white: 'text-white',
     dark: 'text-gray-900'
   };
 
   const returnColorClasses = {
-    default: 'text-sky-400',
-    white: 'text-sky-300',
-    dark: 'text-sky-500'
+    default: 'text-red-400',
+    white: 'text-red-300',
+    dark: 'text-red-500'
   };
 
   return (
@@ -53,12 +53,12 @@ const Logo: React.FC<LogoProps> = ({
         <div className="flex flex-col">
           <div className={`${textSizeClasses[size]} font-bold ${colorClasses[variant]} leading-tight flex items-baseline`}>
             <span>Rate &</span>
-            <span className={`ml-2 ${returnColorClasses[variant]} font-extrabold italic transform -skew-x-12 bg-gradient-to-r ${variant === 'white' ? 'from-sky-300 to-sky-200' : 'from-sky-400 to-sky-500'} bg-clip-text text-transparent drop-shadow-sm`}>
+            <span className={`ml-2 ${returnColorClasses[variant]} font-extrabold italic transform -skew-x-12 bg-gradient-to-r ${variant === 'white' ? 'from-red-300 to-red-200' : 'from-red-400 to-red-500'} bg-clip-text text-transparent drop-shadow-sm`}>
               Return
             </span>
           </div>
           {size === 'lg' || size === 'xl' ? (
-            <span className={`text-sm ${variant === 'white' ? 'text-blue-100' : 'text-gray-600'} font-medium`}>
+            <span className={`text-sm ${variant === 'white' ? 'text-red-100' : 'text-gray-600'} font-medium`}>
               Bond Investment Specialists
             </span>
           ) : null}

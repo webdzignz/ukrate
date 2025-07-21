@@ -23,8 +23,8 @@ const bonds: Bond[] = [
     coupon: "Annual",
     maturity: "14/11/2049",
     yield: "10%",
-    description: "High-yield EUR-denominated bond from Germany's largest bank.",
-    currency: "EUR",
+    description: "High-yield GBP-denominated bond from Germany's largest bank.",
+    currency: "GBP",
     logo: "/deutsche bank-logo-png.png"
   },
   {
@@ -34,8 +34,8 @@ const bonds: Bond[] = [
     coupon: "Quarterly",
     maturity: "22/11/2049",
     yield: "9.625%",
-    description: "Strong USD bond with A rating and reliable quarterly payments.",
-    currency: "USD",
+    description: "Strong GBP bond with A rating and reliable quarterly payments.",
+    currency: "GBP",
     logo: "/barclays-logo.png"
   },
   {
@@ -45,8 +45,8 @@ const bonds: Bond[] = [
     coupon: "Quarterly",
     maturity: "21/11/2049",
     yield: "9.625%",
-    description: "High-yield USD bond backed by major global bank.",
-    currency: "USD",
+    description: "High-yield GBP bond backed by major global bank.",
+    currency: "GBP",
     logo: "/santander-logo.png"
   },
   {
@@ -57,7 +57,7 @@ const bonds: Bond[] = [
     maturity: "15/11/2033",
     yield: "9.016%",
     description: "Medium-term fixed income from Swiss institution.",
-    currency: "USD",
+    currency: "GBP",
     logo: "/ubs-logo.png"
   },
   {
@@ -68,18 +68,18 @@ const bonds: Bond[] = [
     maturity: "01/09/2030",
     yield: "8.75%",
     description: "Global bank-backed fixed return bond, strong yield.",
-    currency: "USD",
+    currency: "GBP",
     logo: "/jpmorgan-logo-png.png"
   }
 ];
 
 // Brand colors mapping
 const bondColors: { [key: string]: string } = {
-  "Deutsche Bank 10%": "#0018a8",
-  "Barclays 9.625%": "#00aeef",
-  "Santander 9.625%": "#ec0000",
-  "UBS 9.016%": "#000000",
-  "JP Morgan 8.75%": "#005cbd"
+  "Deutsche Bank 10%": "#012169",
+  "Barclays 9.625%": "#C8102E",
+  "Santander 9.625%": "#012169",
+  "UBS 9.016%": "#C8102E",
+  "JP Morgan 8.75%": "#012169"
 };
 
 function App() {
@@ -150,31 +150,31 @@ function App() {
               <div className="ml-10 flex items-baseline space-x-8">
                 <button
                   onClick={() => scrollToSection('about')}
-                  className="text-gray-700 hover:text-[#002868] px-3 py-2 text-sm font-medium transition-all duration-300 relative group"
+                  className="text-gray-700 hover:text-[#012169] px-3 py-2 text-sm font-medium transition-all duration-300 relative group"
                 >
                   About
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#002868] transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#012169] transition-all duration-300 group-hover:w-full"></span>
                 </button>
                 <button
                   onClick={() => scrollToSection('products')}
-                  className="text-gray-700 hover:text-[#002868] px-3 py-2 text-sm font-medium transition-all duration-300 relative group"
+                  className="text-gray-700 hover:text-[#012169] px-3 py-2 text-sm font-medium transition-all duration-300 relative group"
                 >
                   Products
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#002868] transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#012169] transition-all duration-300 group-hover:w-full"></span>
                 </button>
                 <button
                   onClick={() => scrollToSection('contact')}
-                  className="text-gray-700 hover:text-[#002868] px-3 py-2 text-sm font-medium transition-all duration-300 relative group"
+                  className="text-gray-700 hover:text-[#012169] px-3 py-2 text-sm font-medium transition-all duration-300 relative group"
                 >
                   Contact Us
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#002868] transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#012169] transition-all duration-300 group-hover:w-full"></span>
                 </button>
               </div>
             </div>
 
             {/* Desktop CTA Button */}
             <div className="hidden md:block">
-              <button className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 hover:shadow-xl hover:scale-105 transform">
+              <button className="bg-gradient-to-r from-[#C8102E] to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 hover:shadow-xl hover:scale-105 transform">
                 Book Consultation
               </button>
             </div>
@@ -183,7 +183,7 @@ function App() {
             <div className="md:hidden">
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="text-gray-700 hover:text-[#002868] p-2 transition-colors duration-300"
+                className="text-gray-700 hover:text-[#012169] p-2 transition-colors duration-300"
               >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>
@@ -196,24 +196,24 @@ function App() {
               <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-md">
                 <button
                   onClick={() => scrollToSection('about')}
-                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#002868] hover:bg-gray-50/80 rounded-md transition-all duration-300"
+                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#012169] hover:bg-gray-50/80 rounded-md transition-all duration-300"
                 >
                   About
                 </button>
                 <button
                   onClick={() => scrollToSection('products')}
-                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#002868] hover:bg-gray-50/80 rounded-md transition-all duration-300"
+                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#012169] hover:bg-gray-50/80 rounded-md transition-all duration-300"
                 >
                   Products
                 </button>
                 <button
                   onClick={() => scrollToSection('contact')}
-                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#002868] hover:bg-gray-50/80 rounded-md transition-all duration-300"
+                  className="block w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-[#012169] hover:bg-gray-50/80 rounded-md transition-all duration-300"
                 >
                   Contact Us
                 </button>
                 <div className="pt-2">
-                  <button className="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg">
+                  <button className="w-full bg-gradient-to-r from-[#C8102E] to-red-700 hover:from-red-700 hover:to-red-800 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg">
                     Book Consultation
                   </button>
                 </div>
@@ -224,15 +224,15 @@ function App() {
       </nav>
 
       {/* Light Blue Separator - Top of Hero */}
-      <div className="h-1 bg-gradient-to-r from-sky-300 via-sky-400 to-sky-300 shadow-sm"></div>
+      <div className="h-1 bg-gradient-to-r from-[#C8102E] via-red-600 to-[#C8102E] shadow-sm"></div>
 
-      {/* Hero Section with Full Visible Australian Background */}
+      {/* Hero Section with Full Visible UK Background */}
       <header className="relative text-white min-h-screen flex items-center overflow-hidden">
         {/* Background Image Container - Full visibility with contain */}
         <div 
           className="absolute inset-0 w-full h-full"
           style={{
-            backgroundImage: `url('/aus image.png')`,
+            backgroundImage: `url('https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg')`,
             backgroundSize: 'contain',
             backgroundPosition: 'center center',
             backgroundRepeat: 'no-repeat',
@@ -241,7 +241,7 @@ function App() {
         />
         
         {/* Gradient Overlay - Covers areas not filled by the contained image */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#002868]/85 via-[#002868]/75 to-[#002868]/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#012169]/85 via-[#012169]/75 to-[#012169]/90"></div>
         
         {/* Content Container */}
         <div className="relative z-20 w-full">
@@ -257,19 +257,19 @@ function App() {
               </h2>
               
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-light text-blue-100 mb-8 drop-shadow-lg animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-400">
-                For Australian Investors
+                For UK Investors
               </h3>
               
               <p className="text-lg sm:text-xl lg:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed drop-shadow-lg animate-in fade-in-50 slide-in-from-bottom-2 duration-1000 delay-600 mb-12">
                 Connect with regulated partners for high-yield, fixed-term products. 
-                Professional guidance for all Australian investors.
+                Professional guidance for all UK investors.
               </p>
               
               {/* Call to Action Button */}
               <div className="animate-in fade-in-50 slide-in-from-bottom-2 duration-1000 delay-800">
                 <button 
                   onClick={() => scrollToSection('products')}
-                  className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-xl transition-all duration-500 hover:shadow-2xl hover:scale-110 transform inline-flex items-center group"
+                  className="bg-gradient-to-r from-[#C8102E] to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-xl transition-all duration-500 hover:shadow-2xl hover:scale-110 transform inline-flex items-center group"
                 >
                   Top 5 Performers
                   <ChevronRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform duration-300" />
@@ -290,15 +290,15 @@ function App() {
       </header>
 
       {/* Light Blue Separator - Bottom of Hero */}
-      <div className="h-1 bg-gradient-to-r from-sky-300 via-sky-400 to-sky-300 shadow-sm"></div>
+      <div className="h-1 bg-gradient-to-r from-[#C8102E] via-red-600 to-[#C8102E] shadow-sm"></div>
 
       {/* Introduction Section */}
       <section className="py-16 bg-gradient-to-b from-white to-gray-50/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-[#002868] mb-8 animate-in fade-in-50 slide-in-from-left-6 duration-800">Introduction</h2>
+            <h2 className="text-3xl font-bold text-[#012169] mb-8 animate-in fade-in-50 slide-in-from-left-6 duration-800">Introduction</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8 animate-in fade-in-50 slide-in-from-left-4 duration-800 delay-200">
-              For Australian investors looking for a balance of safety and strong returns, bonds 
+              For UK investors looking for a balance of safety and strong returns, bonds 
               have become an increasingly attractive option. This guide explores the 
               top-performing bonds currently on the market, why they are in high demand, and 
               how they compare to other fixed-income investments. If you're considering bonds, 
@@ -306,7 +306,7 @@ function App() {
               crucial.
             </p>
 
-            <h3 className="text-2xl font-bold text-[#002868] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-400">Why Bonds Are in High Demand Right Now</h3>
+            <h3 className="text-2xl font-bold text-[#012169] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-400">Why Bonds Are in High Demand Right Now</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6 animate-in fade-in-50 slide-in-from-left-4 duration-800 delay-600">
               Bonds from major global banks are currently some of the most sought-after 
               fixed-income investments. With interest rates fluctuating, investors are turning to 
@@ -315,10 +315,10 @@ function App() {
               experiencing significant oversubscription, highlighting their popularity.
             </p>
 
-            <h4 className="text-xl font-semibold text-[#002868] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-800">Key reasons for this demand include:</h4>
+            <h4 className="text-xl font-semibold text-[#012169] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-800">Key reasons for this demand include:</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {/* Stable Returns */}
-              <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-xl p-6 border border-sky-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1000 group">
+              <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-6 border border-red-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1000 group">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
@@ -327,7 +327,7 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h5 className="text-xl font-bold text-[#002868] group-hover:text-blue-700 transition-colors duration-300">Stable Returns</h5>
+                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Stable Returns</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
                   Bonds offer predictable income through fixed interest payments, providing 
@@ -336,7 +336,7 @@ function App() {
               </div>
               
               {/* Lower Risk */}
-              <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-xl p-6 border border-sky-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1200 group">
+              <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-6 border border-red-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1200 group">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
@@ -345,7 +345,7 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h5 className="text-xl font-bold text-[#002868] group-hover:text-blue-700 transition-colors duration-300">Lower Risk with Bank-Backed Bonds</h5>
+                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Lower Risk with Bank-Backed Bonds</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
                   Bonds issued by leading banks are considered extremely safe, with many governments 
@@ -354,7 +354,7 @@ function App() {
               </div>
               
               {/* Price Appreciation */}
-              <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-xl p-6 border border-sky-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1400 group">
+              <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-6 border border-red-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1400 group">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
@@ -363,7 +363,7 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h5 className="text-xl font-bold text-[#002868] group-hover:text-blue-700 transition-colors duration-300">Price Appreciation Potential</h5>
+                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Price Appreciation Potential</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
                   If interest rates fall, the value of these bonds could increase significantly, 
@@ -372,7 +372,7 @@ function App() {
               </div>
               
               {/* Diversification */}
-              <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-xl p-6 border border-sky-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1600 group">
+              <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-6 border border-red-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1600 group">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
@@ -381,7 +381,7 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h5 className="text-xl font-bold text-[#002868] group-hover:text-blue-700 transition-colors duration-300">Portfolio Diversification</h5>
+                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Portfolio Diversification</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
                   Bonds help investors balance risk in their portfolio, especially during stock 
@@ -400,7 +400,7 @@ function App() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12 animate-in fade-in-50 slide-in-from-top-6 duration-800">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#002868] mb-4 bg-gradient-to-r from-[#002868] to-blue-700 bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-4 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent">
               Top 5 Bond Opportunities
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -475,13 +475,13 @@ function App() {
       <section className="py-12 bg-gradient-to-b from-white to-gray-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 animate-in fade-in-50 slide-in-from-top-4 duration-800">
-            <h2 className="text-3xl font-bold text-[#002868] mb-4 bg-gradient-to-r from-[#002868] to-blue-700 bg-clip-text text-transparent">Top-Performing Bonds</h2>
+            <h2 className="text-3xl font-bold text-[#012169] mb-4 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent">Top-Performing Bonds</h2>
             <p className="text-lg text-gray-600">Current high-yield opportunities from major global banks</p>
           </div>
           <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200/50 animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-200">
             <div className="overflow-x-auto">
               <table className="w-full">
-                <thead className="bg-gradient-to-r from-[#002868] to-blue-800 text-white">
+                <thead className="bg-gradient-to-r from-[#012169] to-[#C8102E] text-white">
                   <tr>
                     <th className="px-6 py-4 text-left text-sm font-semibold">Bond</th>
                     <th className="px-6 py-4 text-left text-sm font-semibold">Yield</th>
@@ -492,8 +492,8 @@ function App() {
                 </thead>
                 <tbody className="divide-y divide-gray-200/50">
                   {bonds.map((bond, index) => (
-                    <tr key={index} className="hover:bg-gradient-to-r hover:from-blue-50/30 hover:to-transparent transition-all duration-300 group">
-                      <td className="px-6 py-4 font-medium text-[#002868] group-hover:text-blue-700 transition-colors duration-300 flex items-center">
+                    <tr key={index} className="hover:bg-gradient-to-r hover:from-red-50/30 hover:to-transparent transition-all duration-300 group">
+                      <td className="px-6 py-4 font-medium text-[#012169] group-hover:text-red-700 transition-colors duration-300 flex items-center">
                         <img 
                           src={bond.logo} 
                           alt={`${bond.name} logo`}
@@ -501,7 +501,7 @@ function App() {
                         />
                         {bond.name}
                       </td>
-                      <td className="px-6 py-4 text-red-600 font-bold text-lg group-hover:text-red-700 transition-colors duration-300">{bond.yield}</td>
+                      <td className="px-6 py-4 text-[#C8102E] font-bold text-lg group-hover:text-red-700 transition-colors duration-300">{bond.yield}</td>
                       <td className="px-6 py-4">
                         <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gradient-to-r from-green-100 to-green-200 text-green-800 shadow-sm group-hover:shadow-md transition-shadow duration-300">
                           {bond.rating}
@@ -529,6 +529,7 @@ function App() {
               <Logo size="lg" showText={false} />
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-[#002868] mb-6 bg-gradient-to-r from-[#002868] to-blue-700 bg-clip-text text-transparent animate-in fade-in-50 slide-in-from-top-6 duration-800 delay-200">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-6 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent animate-in fade-in-50 slide-in-from-top-6 duration-800 delay-200">
               About Rate & Return Connection
             </h2>
             <div className="max-w-4xl mx-auto">
@@ -547,7 +548,7 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-[#002868] mb-2 group-hover:text-blue-700 transition-colors duration-300">Trusted Intermediary</h3>
+                  <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">Trusted Intermediary</h3>
                   <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">We connect you with top-tier, regulated financial partners, not sell you products directly.</p>
                 </div>
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1000">
@@ -558,7 +559,7 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-[#002868] mb-2 group-hover:text-blue-700 transition-colors duration-300">Tailored Matching</h3>
+                  <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">Tailored Matching</h3>
                   <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">We understand your goals and match you with the most competitive opportunities.</p>
                 </div>
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1200">
@@ -569,7 +570,7 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-[#002868] mb-2 group-hover:text-blue-700 transition-colors duration-300">Smart Gateway</h3>
+                  <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">Smart Gateway</h3>
                   <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">Your gateway to secure investing, tailored to your needs, not market noise.</p>
                 </div>
               </div>
@@ -585,7 +586,7 @@ function App() {
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12 animate-in fade-in-50 slide-in-from-top-6 duration-800">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#002868] mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-4">
               Talk to an Expert
             </h2>
             <p className="text-xl text-gray-600">
@@ -593,7 +594,7 @@ function App() {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="bg-[#002868] rounded-2xl p-8 shadow-2xl border border-gray-200/50 animate-in fade-in-50 slide-in-from-bottom-8 duration-800 delay-200">
+          <form onSubmit={handleSubmit} className="bg-[#012169] rounded-2xl p-8 shadow-2xl border border-gray-200/50 animate-in fade-in-50 slide-in-from-bottom-8 duration-800 delay-200">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="animate-in fade-in-50 slide-in-from-left-4 duration-800 delay-400">
                 <label htmlFor="fullName" className="block text-sm font-medium text-white mb-2">
@@ -605,7 +606,7 @@ function App() {
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
                   placeholder="Enter your full name"
                   required
                 />
@@ -621,7 +622,7 @@ function App() {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
                   placeholder="Enter your email address"
                   required
                 />
@@ -637,7 +638,7 @@ function App() {
                   name="phoneNumber"
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
                   placeholder="Enter your phone number"
                   required
                 />
@@ -652,15 +653,15 @@ function App() {
                   name="investmentAmount"
                   value={formData.investmentAmount}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
                   required
                 >
                   <option value="">Select amount</option>
-                  <option value="50000-100000">$50,000 - $100,000</option>
-                  <option value="100000-250000">$100,000 - $250,000</option>
-                  <option value="250000-500000">$250,000 - $500,000</option>
-                  <option value="500000-1000000">$500,000 - $1,000,000</option>
-                  <option value="1000000+">$1,000,000+</option>
+                  <option value="50000-100000">£50,000 - £100,000</option>
+                  <option value="100000-250000">£100,000 - £250,000</option>
+                  <option value="250000-500000">£250,000 - £500,000</option>
+                  <option value="500000-1000000">£500,000 - £1,000,000</option>
+                  <option value="1000000+">£1,000,000+</option>
                 </select>
               </div>
 
@@ -673,7 +674,7 @@ function App() {
                   name="investmentTimeline"
                   value={formData.investmentTimeline}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
                   required
                 >
                   <option value="">Select timeline</option>
@@ -687,7 +688,7 @@ function App() {
             <div className="mt-8 text-center animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1000">
               <button
                 type="submit"
-                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-500 inline-flex items-center hover:shadow-2xl hover:scale-105 transform group"
+                className="bg-gradient-to-r from-[#C8102E] to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-500 inline-flex items-center hover:shadow-2xl hover:scale-105 transform group"
               >
                 Talk to an Expert Now
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
@@ -697,7 +698,7 @@ function App() {
             <div className="mt-6 text-center animate-in fade-in-50 slide-in-from-bottom-2 duration-800 delay-1200">
               <a
                 href="#"
-                className="text-white hover:text-blue-300 font-medium inline-flex items-center transition-all duration-300 hover:scale-105 transform group"
+                className="text-white hover:text-red-300 font-medium inline-flex items-center transition-all duration-300 hover:scale-105 transform group"
               >
                 <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
                 Prefer to speak with someone? Schedule a Call →
@@ -707,19 +708,19 @@ function App() {
 
           {/* Contact Information */}
           <div className="mt-12 text-center animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1400">
-            <h3 className="text-2xl font-bold text-[#002868] mb-6">Get In Touch</h3>
+            <h3 className="text-2xl font-bold text-[#012169] mb-6">Get In Touch</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
               <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
-                <Phone className="w-5 h-5 text-[#002868] mr-3 group-hover:animate-pulse" />
+                <Phone className="w-5 h-5 text-[#012169] mr-3 group-hover:animate-pulse" />
                 <div>
-                  <p className="font-semibold text-[#002868] group-hover:text-blue-700 transition-colors duration-300">Phone</p>
+                  <p className="font-semibold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Phone</p>
                   <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">1800 BONDS (26637)</p>
                 </div>
               </div>
               <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
-                <Mail className="w-5 h-5 text-[#002868] mr-3 group-hover:animate-pulse" />
+                <Mail className="w-5 h-5 text-[#012169] mr-3 group-hover:animate-pulse" />
                 <div>
-                  <p className="font-semibold text-[#002868] group-hover:text-blue-700 transition-colors duration-300">Email</p>
+                  <p className="font-semibold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Email</p>
                   <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">info@rateandreturn.com</p>
                 </div>
               </div>
@@ -729,7 +730,7 @@ function App() {
       </section>
 
       {/* Footer with Contact Details and Copyright */}
-      <footer className="bg-gradient-to-r from-[#002868] to-blue-900 text-white relative overflow-hidden">
+      <footer className="bg-gradient-to-r from-[#012169] to-[#C8102E] text-white relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/10"></div>
         
@@ -742,7 +743,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 transform hover:scale-105 transition-transform duration-500">
                   <Logo size="lg" variant="white" showText={true} />
                 </div>
-                <p className="text-blue-100 text-sm leading-relaxed mb-4">
+                <p className="text-red-100 text-sm leading-relaxed mb-4">
                   Your trusted financial intermediary connecting you with top-tier, regulated providers for secure bond investments.
                 </p>
               </div>
@@ -754,15 +755,15 @@ function App() {
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Phone className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Phone</p>
-                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">1800 BONDS (26637)</p>
+                      <p className="font-semibold text-white group-hover:text-red-100 transition-colors duration-300">Phone</p>
+                      <p className="text-red-100 group-hover:text-white transition-colors duration-300">1800 BONDS (26637)</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Mail className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Email</p>
-                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">info@rateandreturn.com</p>
+                      <p className="font-semibold text-white group-hover:text-red-100 transition-colors duration-300">Email</p>
+                      <p className="text-red-100 group-hover:text-white transition-colors duration-300">info@rateandreturn.com</p>
                     </div>
                   </div>
                 </div>
@@ -775,7 +776,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('about')}
-                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       About Us
                     </button>
@@ -783,7 +784,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('products')}
-                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       Bond Products
                     </button>
@@ -791,7 +792,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('contact')}
-                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       Contact Us
                     </button>
@@ -816,7 +817,7 @@ function App() {
               {/* Additional Legal Info */}
               <div className="text-center md:text-right">
                 <p className="text-gray-700 text-sm">
-                  Australian Financial Services | AFSL Authorized Representative
+                  UK Financial Services | FCA Authorized Representative
                 </p>
               </div>
             </div>
