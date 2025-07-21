@@ -26,7 +26,7 @@ const bonds: Bond[] = [
     yield: "5.875%",
     description: "Senior unsecured bond from one of the UK's largest banks with strong capital ratios and diversified revenue streams.",
     currency: "GBP",
-    logo: "/barclays-logo.png",
+    logo: "/logo111.png",
     minInvestment: "£100,000"
   },
   {
@@ -38,7 +38,7 @@ const bonds: Bond[] = [
     yield: "6.250%",
     description: "Tier 2 subordinated bond from the UK's largest bank by assets, offering attractive yield with quarterly interest payments.",
     currency: "GBP",
-    logo: "/hsbc-logo.png",
+    logo: "/hsbc.png",
     minInvestment: "£100,000"
   },
   {
@@ -50,7 +50,7 @@ const bonds: Bond[] = [
     yield: "5.625%",
     description: "Senior preferred bond from the UK's largest retail bank with strong domestic market position and improving profitability.",
     currency: "GBP",
-    logo: "/lloyds-logo.png",
+    logo: "/lloyds.png",
     minInvestment: "£100,000"
   },
   {
@@ -62,7 +62,7 @@ const bonds: Bond[] = [
     yield: "6.125%",
     description: "Tier 2 capital bond from the UK's state-backed bank with strong government support and improving credit metrics.",
     currency: "GBP",
-    logo: "/natwest-logo.png",
+    logo: "/natwest.png",
     minInvestment: "£100,000"
   },
   {
@@ -74,7 +74,7 @@ const bonds: Bond[] = [
     yield: "5.750%",
     description: "Senior unsecured bond from the UK subsidiary of Santander Group with strong retail banking franchise and solid capital position.",
     currency: "GBP",
-    logo: "/santander-logo.png",
+    logo: "/logo111.png",
     minInvestment: "£100,000"
   }
 ];
