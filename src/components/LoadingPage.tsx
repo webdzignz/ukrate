@@ -63,7 +63,7 @@ const LoadingPage: React.FC = () => {
 
         {/* Subtle loading message */}
         <p className="text-sm text-red-200/80 mt-8 animate-in fade-in-50 duration-1000 delay-1300">
-          Preparing your bespoke British bond portfolio...
+          Preparing your professional UK bond portfolio...
         </p>
       </div>
 
