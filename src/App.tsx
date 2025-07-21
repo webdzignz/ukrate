@@ -253,25 +253,25 @@ function App() {
               </div>
               
               <h2 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 drop-shadow-2xl animate-in fade-in-50 slide-in-from-bottom-6 duration-1000 delay-200 leading-tight">
-                Your Fixed Term Connection
+                Your Trusted British Bond Connection
               </h2>
               
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-light text-blue-100 mb-8 drop-shadow-lg animate-in fade-in-50 slide-in-from-bottom-4 duration-1000 delay-400">
-                For UK Investors
+                Serving Britain's Finest Investors
               </h3>
               
               <p className="text-lg sm:text-xl lg:text-2xl text-blue-100 max-w-4xl mx-auto leading-relaxed drop-shadow-lg animate-in fade-in-50 slide-in-from-bottom-2 duration-1000 delay-600 mb-12">
-                Connect with regulated partners for high-yield, fixed-term products. 
-                Professional guidance for all UK investors.
+                Connecting discerning British investors with premium, regulated bond opportunities. 
+                Bespoke financial guidance with traditional British values and modern expertise.
               </p>
               
               {/* Call to Action Button */}
               <div className="animate-in fade-in-50 slide-in-from-bottom-2 duration-1000 delay-800">
                 <button 
                   onClick={() => scrollToSection('products')}
-                  className="bg-gradient-to-r from-[#C8102E] to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-xl transition-all duration-500 hover:shadow-2xl hover:scale-110 transform inline-flex items-center group"
+                  className="bg-gradient-to-r from-[#C8102E] to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-4 rounded-xl font-bold text-xl transition-all duration-500 hover:shadow-2xl hover:scale-110 transform inline-flex items-center group border-2 border-white/20"
                 >
-                  Top 5 Performers
+                  View Premium British Bonds
                   <ChevronRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform duration-300" />
                 </button>
               </div>
@@ -298,24 +298,23 @@ function App() {
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold text-[#012169] mb-8 animate-in fade-in-50 slide-in-from-left-6 duration-800">Introduction</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8 animate-in fade-in-50 slide-in-from-left-4 duration-800 delay-200">
-              For UK investors looking for a balance of safety and strong returns, bonds 
-              have become an increasingly attractive option. This guide explores the 
-              top-performing bonds currently on the market, why they are in high demand, and 
-              how they compare to other fixed-income investments. If you're considering bonds, 
-              understanding their benefits and how they fit into the current investment landscape is 
-              crucial.
+              For British investors seeking the perfect balance of security and robust returns, premium bonds 
+              have emerged as the investment of choice amongst the discerning. This comprehensive guide explores 
+              Britain's most sought-after bond opportunities, examining why they command such respect in today's 
+              market, and how they compare to traditional British investment vehicles. Understanding these 
+              exceptional opportunities and their place in a well-structured British portfolio is absolutely essential.
             </p>
 
-            <h3 className="text-2xl font-bold text-[#012169] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-400">Why Bonds Are in High Demand Right Now</h3>
+            <h3 className="text-2xl font-bold text-[#012169] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-400">Why Premium Bonds Are Britain's Investment of Choice</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6 animate-in fade-in-50 slide-in-from-left-4 duration-800 delay-600">
-              Bonds from major global banks are currently some of the most sought-after 
-              fixed-income investments. With interest rates fluctuating, investors are turning to 
-              high-quality bonds to secure strong fixed returns. Leading financial analysts from 
-              Morningstar, Google Finance, and Yahoo Finance report that these bonds are 
-              experiencing significant oversubscription, highlighting their popularity.
+              Premium bonds from Britain's most prestigious financial institutions are experiencing unprecedented 
+              demand amongst sophisticated investors. With the Bank of England's monetary policy creating unique 
+              opportunities, astute British investors are securing exceptional fixed returns through carefully 
+              selected bond portfolios. Leading City analysts from the Financial Times, Reuters, and Bloomberg 
+              report these premium bonds are significantly oversubscribed, reflecting their extraordinary appeal.
             </p>
 
-            <h4 className="text-xl font-semibold text-[#012169] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-800">Key reasons for this demand include:</h4>
+            <h4 className="text-xl font-semibold text-[#012169] mb-6 animate-in fade-in-50 slide-in-from-left-6 duration-800 delay-800">Why Britain's elite investors choose premium bonds:</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {/* Stable Returns */}
               <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-xl p-6 border border-red-200/50 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 transform animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1000 group">
@@ -330,8 +329,8 @@ function App() {
                   <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Stable Returns</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Bonds offer predictable income through fixed interest payments, providing 
-                  investors with reliable cash flow regardless of market volatility.
+                  Premium bonds deliver dependable income through guaranteed sterling payments, providing 
+                  British investors with reliable quarterly dividends regardless of market turbulence.
                 </p>
               </div>
               
@@ -345,11 +344,11 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Lower Risk with Bank-Backed Bonds</h5>
+                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">British Banking Excellence</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Bonds issued by leading banks are considered extremely safe, with many governments 
-                  likely to intervene in times of financial distress, providing additional security.
+                  Bonds from Britain's most prestigious financial institutions carry the implicit backing 
+                  of the UK government and Bank of England, providing unparalleled security for discerning investors.
                 </p>
               </div>
               
@@ -363,11 +362,11 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Price Appreciation Potential</h5>
+                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Sterling Capital Growth</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  If interest rates fall, the value of these bonds could increase significantly, 
-                  leading to substantial capital gains for investors who hold them.
+                  As the Bank of England adjusts monetary policy, these premium bonds offer exceptional 
+                  capital appreciation potential, delivering substantial sterling gains for astute British investors.
                 </p>
               </div>
               
@@ -381,11 +380,11 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Portfolio Diversification</h5>
+                  <h5 className="text-xl font-bold text-[#012169] group-hover:text-red-700 transition-colors duration-300">British Portfolio Excellence</h5>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Bonds help investors balance risk in their portfolio, especially during stock 
-                  market downturns, providing stability when equity markets are volatile.
+                  Premium bonds provide essential portfolio balance for sophisticated British investors, 
+                  offering stability during FTSE volatility and complementing traditional British investments.
                 </p>
               </div>
             </div>
@@ -400,11 +399,14 @@ function App() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12 animate-in fade-in-50 slide-in-from-top-6 duration-800">
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-4 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent">
-              Top 5 Bond Opportunities
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-4 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent flex items-center justify-center">
+              <span className="mr-3">🇬🇧</span>
+              Britain's Premier Bond Collection
+              <span className="ml-3">🇬🇧</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Carefully selected high-yield bonds from reputable global banks. Click any bond to get personalized information.
+              Exclusively curated premium bonds from Britain's most distinguished financial institutions. 
+              Click any bond for bespoke investment guidance from our British specialists.
             </p>
           </div>
 
@@ -475,8 +477,8 @@ function App() {
       <section className="py-12 bg-gradient-to-b from-white to-gray-50/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 animate-in fade-in-50 slide-in-from-top-4 duration-800">
-            <h2 className="text-3xl font-bold text-[#012169] mb-4 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent">Top-Performing Bonds</h2>
-            <p className="text-lg text-gray-600">Current high-yield opportunities from major global banks</p>
+            <h2 className="text-3xl font-bold text-[#012169] mb-4 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent">Britain's Elite Bond Portfolio</h2>
+            <p className="text-lg text-gray-600">Exceptional sterling opportunities from Britain's most prestigious financial institutions</p>
           </div>
           <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-200/50 animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-200">
             <div className="overflow-x-auto">
@@ -528,15 +530,23 @@ function App() {
             <div className="flex justify-center mb-6 animate-in fade-in-50 zoom-in-50 duration-800">
               <Logo size="lg" showText={false} />
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-6 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent animate-in fade-in-50 slide-in-from-top-6 duration-800 delay-200">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-6 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent animate-in fade-in-50 slide-in-from-top-6 duration-800 delay-200 flex items-center justify-center">
+              <span className="mr-3">🏛️</span>
               About Rate & Return Connection
+              <span className="ml-3">🏛️</span>
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-600 mb-8 leading-relaxed animate-in fade-in-50 slide-in-from-left-4 duration-800 delay-400">
-                At Rate & Return Connection, we don't sell investments — we connect you to the right financial partner. As a trusted financial intermediary, our mission is simple: to understand your investment goals and match you with top-tier, regulated providers offering the most competitive fixed-term opportunities in the market.
+                At Rate & Return Connection, we embody traditional British values of trust, discretion, and excellence. 
+                We don't sell investments — we forge connections between discerning British investors and the finest 
+                regulated financial partners. Our mission is quintessentially British: to understand your investment 
+                aspirations and match you with premier, FCA-regulated providers offering the most exclusive 
+                fixed-term opportunities available to British investors.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed animate-in fade-in-50 slide-in-from-right-4 duration-800 delay-600">
-                Whether you're seeking consistent income, long-term growth, or low-risk bond exposure, we act as your gateway to smart, secure investing — tailored to your needs, not the market's noise.
+                Whether you're seeking consistent sterling income, long-term British growth, or secure bond exposure, 
+                we serve as your trusted gateway to sophisticated British investing — bespoke solutions crafted 
+                for your requirements, not influenced by market speculation.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-800">
@@ -548,7 +558,7 @@ function App() {
                     />
                   </div>
                   <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">Trusted Intermediary</h3>
-                  <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">We connect you with top-tier, regulated financial partners, not sell you products directly.</p>
+                  <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">We connect distinguished British investors with premier, FCA-regulated financial partners through traditional British values of trust and discretion.</p>
                 </div>
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1000">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
@@ -558,8 +568,8 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">Tailored Matching</h3>
-                  <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">We understand your goals and match you with the most competitive opportunities.</p>
+                  <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">Bespoke British Service</h3>
+                  <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">We understand your British investment aspirations and match you with the most exclusive sterling opportunities available.</p>
                 </div>
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1200">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
@@ -569,8 +579,8 @@ function App() {
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">Smart Gateway</h3>
-                  <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">Your gateway to secure investing, tailored to your needs, not market noise.</p>
+                  <h3 className="text-xl font-bold text-[#012169] mb-2 group-hover:text-red-700 transition-colors duration-300">British Excellence Gateway</h3>
+                  <p className="text-gray-600 group-hover:text-gray-700 transition-colors duration-300">Your exclusive gateway to sophisticated British investing, crafted with traditional values and modern expertise.</p>
                 </div>
               </div>
             </div>
@@ -586,10 +596,10 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12 animate-in fade-in-50 slide-in-from-top-6 duration-800">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-4">
-              Talk to an Expert
+              Speak with a British Investment Specialist
             </h2>
             <p className="text-xl text-gray-600">
-              Get personalized bond recommendations tailored to your investment goals
+              Receive bespoke bond recommendations crafted by our distinguished British investment specialists
             </p>
           </div>
 
@@ -645,7 +655,7 @@ function App() {
 
               <div className="animate-in fade-in-50 slide-in-from-right-4 duration-800 delay-600">
                 <label htmlFor="investmentAmount" className="block text-sm font-medium text-white mb-2">
-                  Investment Amount
+                  Investment Amount (Sterling)
                 </label>
                 <select
                   id="investmentAmount"
@@ -656,17 +666,17 @@ function App() {
                   required
                 >
                   <option value="">Select amount</option>
-                  <option value="50000-100000">$50,000 - $100,000</option>
-                  <option value="100000-250000">$100,000 - $250,000</option>
-                  <option value="250000-500000">$250,000 - $500,000</option>
-                  <option value="500000-1000000">$500,000 - $1,000,000</option>
-                  <option value="1000000+">$1,000,000+</option>
+                  <option value="50000-100000">£50,000 - £100,000</option>
+                  <option value="100000-250000">£100,000 - £250,000</option>
+                  <option value="250000-500000">£250,000 - £500,000</option>
+                  <option value="500000-1000000">£500,000 - £1,000,000</option>
+                  <option value="1000000+">£1,000,000+</option>
                 </select>
               </div>
 
               <div className="md:col-span-2 animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-800">
                 <label htmlFor="investmentTimeline" className="block text-sm font-medium text-white mb-2">
-                  When do you want to invest?
+                  When would you prefer to invest?
                 </label>
                 <select
                   id="investmentTimeline"
@@ -677,9 +687,9 @@ function App() {
                   required
                 >
                   <option value="">Select timeline</option>
-                  <option value="immediately">Immediately</option>
+                  <option value="immediately">Immediately (within 48 hours)</option>
                   <option value="1-month">Within 1 month</option>
-                  <option value="more-than-month">More than 1 month</option>
+                  <option value="more-than-month">Within the quarter</option>
                 </select>
               </div>
             </div>
@@ -687,9 +697,9 @@ function App() {
             <div className="mt-8 text-center animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1000">
               <button
                 type="submit"
-                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-500 inline-flex items-center hover:shadow-2xl hover:scale-105 transform group"
+                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-500 inline-flex items-center hover:shadow-2xl hover:scale-105 transform group border-2 border-white/20"
               >
-                Talk to an Expert Now
+                Speak with Our British Specialists
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
               </button>
             </div>
@@ -700,27 +710,27 @@ function App() {
                 className="text-white hover:text-blue-300 font-medium inline-flex items-center transition-all duration-300 hover:scale-105 transform group"
               >
                 <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-                Prefer to speak with someone? Schedule a Call →
+                Prefer a traditional telephone consultation? Schedule a Call →
               </a>
             </div>
           </form>
 
           {/* Contact Information */}
           <div className="mt-12 text-center animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1400">
-            <h3 className="text-2xl font-bold text-[#012169] mb-6">Get In Touch</h3>
+            <h3 className="text-2xl font-bold text-[#012169] mb-6">Contact Our British Team</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
               <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                 <Phone className="w-5 h-5 text-[#012169] mr-3 group-hover:animate-pulse" />
                 <div>
-                  <p className="font-semibold text-[#012169] group-hover:text-blue-700 transition-colors duration-300">Phone</p>
-                  <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">1800 BONDS (26637)</p>
+                  <p className="font-semibold text-[#012169] group-hover:text-blue-700 transition-colors duration-300">British Helpline</p>
+                  <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">0800 BONDS UK</p>
                 </div>
               </div>
               <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                 <Mail className="w-5 h-5 text-[#012169] mr-3 group-hover:animate-pulse" />
                 <div>
-                  <p className="font-semibold text-[#012169] group-hover:text-blue-700 transition-colors duration-300">Email</p>
-                  <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">info@rateandreturn.com</p>
+                  <p className="font-semibold text-[#012169] group-hover:text-blue-700 transition-colors duration-300">British Enquiries</p>
+                  <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">enquiries@rateandreturn.co.uk</p>
                 </div>
               </div>
             </div>
@@ -743,26 +753,27 @@ function App() {
                   <Logo size="lg" variant="white" showText={true} />
                 </div>
                 <p className="text-blue-100 text-sm leading-relaxed mb-4">
-                  Your trusted financial intermediary connecting you with top-tier, regulated providers for secure bond investments.
+                  Britain's most trusted financial intermediary, connecting distinguished investors with premier, 
+                  FCA-regulated providers for exclusive sterling bond investments.
                 </p>
               </div>
 
               {/* Contact Information */}
               <div className="text-center animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-200">
-                <h3 className="text-xl font-bold text-white mb-6">Contact Information</h3>
+                <h3 className="text-xl font-bold text-white mb-6">British Contact Centre</h3>
                 <div className="space-y-4">
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Phone className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Phone</p>
-                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">1800 BONDS (26637)</p>
+                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">British Helpline</p>
+                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">0800 BONDS UK</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Mail className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Email</p>
-                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">info@rateandreturn.com</p>
+                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">British Enquiries</p>
+                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">enquiries@rateandreturn.co.uk</p>
                     </div>
                   </div>
                 </div>
@@ -770,14 +781,14 @@ function App() {
 
               {/* Quick Links */}
               <div className="text-center md:text-right animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-400">
-                <h3 className="text-xl font-bold text-white mb-6">Quick Links</h3>
+                <h3 className="text-xl font-bold text-white mb-6">British Services</h3>
                 <div className="space-y-3">
                   <div>
                     <button
                       onClick={() => scrollToSection('about')}
                       className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
-                      About Us
+                      About Our British Heritage
                     </button>
                   </div>
                   <div>
@@ -785,7 +796,7 @@ function App() {
                       onClick={() => scrollToSection('products')}
                       className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
-                      Bond Products
+                      Premium British Bonds
                     </button>
                   </div>
                   <div>
@@ -793,7 +804,7 @@ function App() {
                       onClick={() => scrollToSection('contact')}
                       className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
-                      Contact Us
+                      British Specialists
                     </button>
                   </div>
                 </div>
@@ -809,14 +820,14 @@ function App() {
               {/* Copyright */}
               <div className="text-center md:text-left">
                 <p className="text-gray-700 text-sm">
-                  © {new Date().getFullYear()} Rate & Return Connection. All rights reserved.
+                  © {new Date().getFullYear()} Rate & Return Connection Ltd. All rights reserved. Proudly British.
                 </p>
               </div>
 
               {/* Additional Legal Info */}
               <div className="text-center md:text-right">
                 <p className="text-gray-700 text-sm">
-                  Australian Financial Services | AFSL Authorized Representative
+                  UK Financial Services | FCA Authorized Representative | Est. London
                 </p>
               </div>
             </div>
@@ -824,9 +835,9 @@ function App() {
             {/* Disclaimer */}
             <div className="mt-6 text-center animate-in fade-in-50 slide-in-from-bottom-2 duration-800 delay-800">
               <p className="text-gray-700 text-sm max-w-4xl mx-auto leading-relaxed">
-                <strong>Disclaimer:</strong> This guide is for informational purposes only and does not constitute financial advice. 
-                Bond investments carry risks including potential loss of principal. Past performance does not guarantee future results. 
-                Please consult a licensed financial adviser before making investment decisions.
+                <strong>Important Notice:</strong> This guide is for informational purposes only and does not constitute financial advice. 
+                Premium bond investments carry risks including potential loss of principal. Past performance does not guarantee future results. 
+                Please consult an FCA-regulated financial adviser before making investment decisions. Rate & Return Connection Ltd is proud to serve British investors with traditional values and modern expertise.
               </p>
             </div>
           </div>

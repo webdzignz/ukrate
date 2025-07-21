@@ -59,7 +59,7 @@ const Logo: React.FC<LogoProps> = ({
           </div>
           {size === 'lg' || size === 'xl' ? (
             <span className={`text-sm ${variant === 'white' ? 'text-red-100' : 'text-gray-600'} font-medium`}>
-              Bond Investment Specialists
+              British Bond Investment Specialists
             </span>
           ) : null}
         </div>
