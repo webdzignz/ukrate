@@ -730,7 +730,7 @@ function App() {
                 <Mail className="w-5 h-5 text-[#012169] mr-3 group-hover:animate-pulse" />
                 <div>
                   <p className="font-semibold text-[#012169] group-hover:text-blue-700 transition-colors duration-300">British Enquiries</p>
-                  <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">enquiries@rateandreturn.co.uk</p>
+                  <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">enquiries@theratemove.com</p>
                 </div>
               </div>
             </div>
@@ -773,7 +773,7 @@ function App() {
                     <Mail className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
                       <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">British Enquiries</p>
-                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">enquiries@rateandreturn.co.uk</p>
+                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">enquiries@theratemove.com</p>
                     </div>
                   </div>
                 </div>
@@ -820,7 +820,7 @@ function App() {
               {/* Copyright */}
               <div className="text-center md:text-left">
                 <p className="text-gray-700 text-sm">
-                  © {new Date().getFullYear()} Rate & Return Connection Ltd. All rights reserved. Proudly British.
+                  © {new Date().getFullYear()} The Rate Move Ltd. All rights reserved. Proudly British.
                 </p>
               </div>
 
@@ -837,7 +837,7 @@ function App() {
               <p className="text-gray-700 text-sm max-w-4xl mx-auto leading-relaxed">
                 <strong>Important Notice:</strong> This guide is for informational purposes only and does not constitute financial advice. 
                 Premium bond investments carry risks including potential loss of principal. Past performance does not guarantee future results. 
-                Please consult an FCA-regulated financial adviser before making investment decisions. Rate & Return Connection Ltd is proud to serve British investors with traditional values and modern expertise.
+                Please consult an FCA-regulated financial adviser before making investment decisions. The Rate Move Ltd is proud to serve British investors with traditional values and modern expertise.
               </p>
             </div>
           </div>
