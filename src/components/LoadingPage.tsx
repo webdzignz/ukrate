@@ -3,72 +3,44 @@ import Logo from './Logo';
 
 const LoadingPage: React.FC = () => {
   return (
-    <div className="fixed inset-0 bg-gradient-to-br from-[#012169] via-blue-900 to-[#012169] flex items-center justify-center z-50 overflow-hidden">
-      {/* Animated background particles */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-white/20 rounded-full animate-pulse"></div>
-        <div className="absolute top-3/4 right-1/4 w-2 h-2 bg-white/30 rounded-full animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 right-1/3 w-2.5 h-2.5 bg-white/25 rounded-full animate-pulse delay-500"></div>
-        <div className="absolute top-1/3 left-1/2 w-1.5 h-1.5 bg-white/40 rounded-full animate-pulse delay-1500"></div>
-        <div className="absolute bottom-1/4 left-1/3 w-2 h-2 bg-white/30 rounded-full animate-pulse delay-2000"></div>
-        <div className="absolute top-1/6 right-1/6 w-1 h-1 bg-white/50 rounded-full animate-pulse delay-700"></div>
-        <div className="absolute bottom-1/3 right-2/3 w-1.5 h-1.5 bg-white/20 rounded-full animate-pulse delay-1200"></div>
-        <div className="absolute top-2/3 left-1/6 w-2 h-2 bg-white/30 rounded-full animate-pulse delay-1800"></div>
+    <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 flex items-center justify-center z-50 overflow-hidden">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-white rounded-full animate-pulse"></div>
+        <div className="absolute top-3/4 right-1/4 w-1.5 h-1.5 bg-white rounded-full animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 right-1/3 w-2 h-2 bg-white rounded-full animate-pulse delay-500"></div>
+        <div className="absolute top-1/3 left-1/2 w-1 h-1 bg-white rounded-full animate-pulse delay-1500"></div>
+        <div className="absolute bottom-1/4 left-1/3 w-1.5 h-1.5 bg-white rounded-full animate-pulse delay-2000"></div>
       </div>
 
-      {/* Gradient overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-black/5"></div>
-
       {/* Main loading content */}
-      <div className="relative z-10 text-center animate-in fade-in-50 zoom-in-95 duration-1000">
-        {/* Logo with pulsing animation */}
-        <div className="mb-8 transform hover:scale-105 transition-transform duration-500 animate-pulse">
+      <div className="relative z-10 text-center">
+        {/* Logo */}
+        <div className="mb-8 animate-pulse">
           <Logo size="xl" variant="white" showText={true} />
         </div>
 
         {/* Loading text */}
-        <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4 animate-in slide-in-from-bottom-4 duration-1000 delay-300">
-          Loading Your Investment Portal
+        <h1 className="text-2xl font-semibold text-white mb-2">
+          Preparing Your Investment Portal
         </h1>
         
-        <p className="text-lg text-blue-100 mb-12 animate-in slide-in-from-bottom-2 duration-1000 delay-500">
-          Connecting you to premium bond opportunities...
+        <p className="text-gray-300 mb-8">
+          Connecting to institutional-grade opportunities...
         </p>
 
-        {/* Animated loading bar */}
-        <div className="w-80 max-w-sm mx-auto mb-8 animate-in slide-in-from-bottom-2 duration-1000 delay-700">
-          <div className="bg-white/20 rounded-full h-2 overflow-hidden backdrop-blur-sm">
-            <div className="h-full bg-gradient-to-r from-blue-400 via-blue-300 to-white rounded-full animate-loading-bar shadow-lg"></div>
+        {/* Professional loading indicator */}
+        <div className="w-64 mx-auto mb-8">
+          <div className="bg-gray-700 rounded-full h-1 overflow-hidden">
+            <div className="h-full bg-gradient-to-r from-blue-500 to-blue-400 rounded-full animate-loading-bar"></div>
           </div>
         </div>
 
-        {/* Spinning loader */}
-        <div className="flex justify-center mb-8 animate-in fade-in-50 duration-1000 delay-900">
-          <div className="relative">
-            {/* Outer ring */}
-            <div className="w-16 h-16 border-4 border-white/20 rounded-full animate-spin-slow"></div>
-            {/* Inner spinning element */}
-            <div className="absolute top-0 left-0 w-16 h-16 border-4 border-transparent border-t-blue-400 border-r-blue-300 rounded-full animate-spin"></div>
-            {/* Center dot */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-white rounded-full animate-pulse"></div>
-          </div>
+        {/* Minimal spinner */}
+        <div className="flex justify-center">
+          <div className="w-8 h-8 border-2 border-gray-600 border-t-blue-500 rounded-full animate-spin"></div>
         </div>
-
-        {/* Loading dots */}
-        <div className="flex justify-center space-x-2 animate-in fade-in-50 duration-1000 delay-1100">
-          <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce"></div>
-          <div className="w-3 h-3 bg-blue-300 rounded-full animate-bounce delay-100"></div>
-          <div className="w-3 h-3 bg-white rounded-full animate-bounce delay-200"></div>
-        </div>
-
-        {/* Subtle loading message */}
-        <p className="text-sm text-blue-200/80 mt-8 animate-in fade-in-50 duration-1000 delay-1300">
-          Preparing your professional UK bond portfolio...
-        </p>
       </div>
-
-      {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#012169] to-transparent"></div>
     </div>
   );
 };
