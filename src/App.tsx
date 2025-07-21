@@ -605,7 +605,7 @@ function App() {
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
                   placeholder="Enter your full name"
                   required
                 />
@@ -621,7 +621,7 @@ function App() {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
                   placeholder="Enter your email address"
                   required
                 />
@@ -637,7 +637,7 @@ function App() {
                   name="phoneNumber"
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900 placeholder-gray-500"
                   placeholder="Enter your phone number"
                   required
                 />
@@ -652,15 +652,15 @@ function App() {
                   name="investmentAmount"
                   value={formData.investmentAmount}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
                   required
                 >
                   <option value="">Select amount</option>
-                  <option value="50000-100000">£50,000 - £100,000</option>
-                  <option value="100000-250000">£100,000 - £250,000</option>
-                  <option value="250000-500000">£250,000 - £500,000</option>
-                  <option value="500000-1000000">£500,000 - £1,000,000</option>
-                  <option value="1000000+">£1,000,000+</option>
+                  <option value="50000-100000">$50,000 - $100,000</option>
+                  <option value="100000-250000">$100,000 - $250,000</option>
+                  <option value="250000-500000">$250,000 - $500,000</option>
+                  <option value="500000-1000000">$500,000 - $1,000,000</option>
+                  <option value="1000000+">$1,000,000+</option>
                 </select>
               </div>
 
@@ -673,7 +673,7 @@ function App() {
                   name="investmentTimeline"
                   value={formData.investmentTimeline}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-300 focus:border-red-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-300 focus:border-blue-300 transition-all duration-300 bg-white hover:shadow-md text-gray-900"
                   required
                 >
                   <option value="">Select timeline</option>
@@ -687,7 +687,7 @@ function App() {
             <div className="mt-8 text-center animate-in fade-in-50 slide-in-from-bottom-4 duration-800 delay-1000">
               <button
                 type="submit"
-                className="bg-gradient-to-r from-[#C8102E] to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-500 inline-flex items-center hover:shadow-2xl hover:scale-105 transform group"
+                className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-500 inline-flex items-center hover:shadow-2xl hover:scale-105 transform group"
               >
                 Talk to an Expert Now
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
@@ -697,7 +697,7 @@ function App() {
             <div className="mt-6 text-center animate-in fade-in-50 slide-in-from-bottom-2 duration-800 delay-1200">
               <a
                 href="#"
-                className="text-white hover:text-red-300 font-medium inline-flex items-center transition-all duration-300 hover:scale-105 transform group"
+                className="text-white hover:text-blue-300 font-medium inline-flex items-center transition-all duration-300 hover:scale-105 transform group"
               >
                 <Phone className="w-4 h-4 mr-2 group-hover:animate-pulse" />
                 Prefer to speak with someone? Schedule a Call →
@@ -712,14 +712,14 @@ function App() {
               <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                 <Phone className="w-5 h-5 text-[#012169] mr-3 group-hover:animate-pulse" />
                 <div>
-                  <p className="font-semibold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Phone</p>
+                  <p className="font-semibold text-[#012169] group-hover:text-blue-700 transition-colors duration-300">Phone</p>
                   <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">1800 BONDS (26637)</p>
                 </div>
               </div>
               <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                 <Mail className="w-5 h-5 text-[#012169] mr-3 group-hover:animate-pulse" />
                 <div>
-                  <p className="font-semibold text-[#012169] group-hover:text-red-700 transition-colors duration-300">Email</p>
+                  <p className="font-semibold text-[#012169] group-hover:text-blue-700 transition-colors duration-300">Email</p>
                   <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">info@rateandreturn.com</p>
                 </div>
               </div>
@@ -729,7 +729,7 @@ function App() {
       </section>
 
       {/* Footer with Contact Details and Copyright */}
-      <footer className="bg-gradient-to-r from-[#012169] to-[#C8102E] text-white relative overflow-hidden">
+      <footer className="bg-gradient-to-r from-[#012169] to-blue-900 text-white relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/10"></div>
         
@@ -742,7 +742,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 transform hover:scale-105 transition-transform duration-500">
                   <Logo size="lg" variant="white" showText={true} />
                 </div>
-                <p className="text-red-100 text-sm leading-relaxed mb-4">
+                <p className="text-blue-100 text-sm leading-relaxed mb-4">
                   Your trusted financial intermediary connecting you with top-tier, regulated providers for secure bond investments.
                 </p>
               </div>
@@ -754,15 +754,15 @@ function App() {
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Phone className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-red-100 transition-colors duration-300">Phone</p>
-                      <p className="text-red-100 group-hover:text-white transition-colors duration-300">1800 BONDS (26637)</p>
+                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Phone</p>
+                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">1800 BONDS (26637)</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Mail className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-red-100 transition-colors duration-300">Email</p>
-                      <p className="text-red-100 group-hover:text-white transition-colors duration-300">info@rateandreturn.com</p>
+                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Email</p>
+                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">info@rateandreturn.com</p>
                     </div>
                   </div>
                 </div>
@@ -775,7 +775,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('about')}
-                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       About Us
                     </button>
@@ -783,7 +783,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('products')}
-                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       Bond Products
                     </button>
@@ -791,7 +791,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('contact')}
-                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       Contact Us
                     </button>
@@ -816,7 +816,7 @@ function App() {
               {/* Additional Legal Info */}
               <div className="text-center md:text-right">
                 <p className="text-gray-700 text-sm">
-                  UK Financial Services | FCA Authorized Representative
+                  Australian Financial Services | AFSL Authorized Representative
                 </p>
               </div>
             </div>
