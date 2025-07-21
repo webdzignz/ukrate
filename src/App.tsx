@@ -428,7 +428,7 @@ function App() {
                       <img 
                         src={bond.logo} 
                         alt={`${bond.name} logo`}
-                        className="w-10 h-10 mr-3 object-contain bg-white rounded-lg p-1 shadow-sm group-hover:shadow-md transition-shadow duration-300"
+                        className="w-6 h-6 mr-2 object-contain bg-white rounded p-0.5 shadow-sm group-hover:shadow-md transition-shadow duration-300"
                       />
                       <h3 className="text-xl font-bold text-white group-hover:text-gray-100 transition-colors duration-300">{bond.name}</h3>
                     </div>
