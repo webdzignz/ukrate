@@ -200,12 +200,20 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-gray-50 to-white">
+      <section className="pt-20 pb-16 bg-gradient-to-br from-blue-50/30 to-white relative overflow-hidden">
+        {/* Subtle UK flag elements */}
+        <div className="absolute top-0 right-0 w-96 h-96 opacity-5">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#012169] to-[#C8102E] transform rotate-12 -skew-x-12"></div>
+        </div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 opacity-5">
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#C8102E] to-[#012169] transform -rotate-12 skew-x-12"></div>
+        </div>
+        
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
               Institutional-Grade
-              <span className="block text-blue-600">Bond Investments</span>
+              <span className="block bg-gradient-to-r from-[#012169] to-blue-600 bg-clip-text text-transparent">Bond Investments</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Access premium fixed-income opportunities typically reserved for institutional investors. 
@@ -214,14 +222,14 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => scrollToSection('products')}
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 inline-flex items-center justify-center"
+                className="bg-gradient-to-r from-[#012169] to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center justify-center"
               >
                 View Investment Solutions
                 <ChevronRight className="w-5 h-5 ml-2" />
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors duration-200"
+                className="border-2 border-[#012169]/20 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gradient-to-r hover:from-blue-50/30 hover:to-transparent hover:border-[#012169]/40 transition-all duration-300"
               >
                 Schedule Consultation
               </button>
@@ -231,26 +239,26 @@ function App() {
       </section>
 
       {/* Trust Indicators */}
-      <section className="py-12 bg-white border-y border-gray-100">
+      <section className="py-12 bg-gradient-to-r from-white via-blue-50/20 to-white border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <Shield className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-gradient-to-br from-[#012169]/10 to-blue-100 rounded-full flex items-center justify-center mb-4 shadow-sm">
+                <Shield className="w-8 h-8 text-[#012169]" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">FCA Regulated</h3>
               <p className="text-gray-600">Fully authorized and regulated by the Financial Conduct Authority</p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <Building2 className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-gradient-to-br from-[#012169]/10 to-blue-100 rounded-full flex items-center justify-center mb-4 shadow-sm">
+                <Building2 className="w-8 h-8 text-[#012169]" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Institutional Access</h3>
               <p className="text-gray-600">Direct access to institutional-grade investment opportunities</p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <Users className="w-8 h-8 text-blue-600" />
+              <div className="w-16 h-16 bg-gradient-to-br from-[#012169]/10 to-blue-100 rounded-full flex items-center justify-center mb-4 shadow-sm">
+                <Users className="w-8 h-8 text-[#012169]" />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Expert Advisory</h3>
               <p className="text-gray-600">Dedicated relationship managers with institutional experience</p>
@@ -260,7 +268,7 @@ function App() {
       </section>
 
       {/* Investment Solutions */}
-      <section id="products" className="py-20 bg-gray-50">
+      <section id="products" className="py-20 bg-gradient-to-b from-gray-50/50 to-blue-50/30">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -270,6 +278,7 @@ function App() {
               Carefully curated portfolio of investment-grade bonds from leading global financial institutions. 
               Each opportunity undergoes rigorous due diligence and credit analysis.
             </p>
+            <div className="w-24 h-1 bg-gradient-to-r from-[#012169] to-blue-400 mx-auto mt-6 rounded-full"></div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8">
@@ -277,11 +286,11 @@ function App() {
               <div 
                 key={index} 
                 onClick={handleBondClick}
-                className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 cursor-pointer border border-gray-100 hover:border-blue-200 group"
+                className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer border border-gray-100 hover:border-[#012169]/20 group hover:scale-105"
               >
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center">
-                    <div className="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center mr-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-gray-50 to-blue-50/50 rounded-lg flex items-center justify-center mr-4 shadow-sm">
                       <img 
                         src={bond.logo} 
                         alt={`${bond.name} logo`}
@@ -294,7 +303,7 @@ function App() {
                     </div>
                   </div>
                   <div className="text-right">
-                    <div className="text-2xl font-bold text-blue-600">{bond.yield}</div>
+                    <div className="text-2xl font-bold bg-gradient-to-r from-[#012169] to-blue-600 bg-clip-text text-transparent">{bond.yield}</div>
                     <div className="text-sm text-gray-500">Annual Yield</div>
                   </div>
                 </div>
@@ -322,7 +331,7 @@ function App() {
                 
                 <p className="text-sm text-gray-600 mb-6 leading-relaxed">{bond.description}</p>
                 
-                <div className="flex items-center text-blue-600 text-sm font-medium group-hover:text-blue-700 transition-colors duration-200">
+                <div className="flex items-center text-[#012169] text-sm font-medium group-hover:text-blue-600 transition-colors duration-200">
                   <span>View Details</span>
                   <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform duration-200" />
                 </div>
@@ -351,29 +360,29 @@ function App() {
               </p>
               <div className="grid grid-cols-2 gap-8">
                 <div>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">£2.5B+</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-[#012169] to-blue-600 bg-clip-text text-transparent mb-2">£2.5B+</div>
                   <div className="text-sm text-gray-600">Assets Under Management</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-[#012169] to-blue-600 bg-clip-text text-transparent mb-2">15+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-[#012169] to-blue-600 bg-clip-text text-transparent mb-2">500+</div>
                   <div className="text-sm text-gray-600">Satisfied Clients</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">A+</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-[#012169] to-blue-600 bg-clip-text text-transparent mb-2">A+</div>
                   <div className="text-sm text-gray-600">Credit Rating</div>
                 </div>
               </div>
             </div>
-            <div className="bg-gray-50 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-gray-50/50 to-blue-50/30 rounded-2xl p-8 border border-gray-100">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Why Choose The Rate Move</h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <Award className="w-3 h-3 text-blue-600" />
+                  <div className="w-6 h-6 bg-gradient-to-br from-[#012169]/10 to-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <Award className="w-3 h-3 text-[#012169]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Institutional Access</h4>
@@ -381,8 +390,8 @@ function App() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <Shield className="w-3 h-3 text-blue-600" />
+                  <div className="w-6 h-6 bg-gradient-to-br from-[#012169]/10 to-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <Shield className="w-3 h-3 text-[#012169]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Rigorous Due Diligence</h4>
@@ -390,8 +399,8 @@ function App() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <TrendingUp className="w-3 h-3 text-blue-600" />
+                  <div className="w-6 h-6 bg-gradient-to-br from-[#012169]/10 to-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <TrendingUp className="w-3 h-3 text-[#012169]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Transparent Pricing</h4>
@@ -399,8 +408,8 @@ function App() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
-                    <Users className="w-3 h-3 text-blue-600" />
+                  <div className="w-6 h-6 bg-gradient-to-br from-[#012169]/10 to-blue-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                    <Users className="w-3 h-3 text-[#012169]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Personal Relationship Manager</h4>
@@ -414,7 +423,13 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-900">
+      <section id="contact" className="py-20 bg-gradient-to-br from-[#012169]/85 via-[#012169]/75 to-[#012169]/90 relative overflow-hidden">
+        {/* Subtle UK flag pattern in background */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-1/4 right-1/3 w-32 h-32 bg-gradient-to-br from-[#C8102E] to-transparent transform rotate-45"></div>
+          <div className="absolute bottom-1/3 left-1/4 w-24 h-24 bg-gradient-to-tr from-white to-transparent transform -rotate-12"></div>
+        </div>
+        
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-white mb-4">
@@ -425,7 +440,7 @@ function App() {
             </p>
           </div>
 
-          <form onSubmit={handleSubmit} className="bg-white rounded-2xl p-8 shadow-xl">
+          <form onSubmit={handleSubmit} className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-white/20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-2">
@@ -437,7 +452,7 @@ function App() {
                   name="fullName"
                   value={formData.fullName}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#012169] focus:border-[#012169] transition-all duration-200"
                   placeholder="Enter your full name"
                   required
                 />
@@ -453,7 +468,7 @@ function App() {
                   name="email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#012169] focus:border-[#012169] transition-all duration-200"
                   placeholder="Enter your email address"
                   required
                 />
@@ -469,7 +484,7 @@ function App() {
                   name="phoneNumber"
                   value={formData.phoneNumber}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#012169] focus:border-[#012169] transition-all duration-200"
                   placeholder="Enter your phone number"
                   required
                 />
@@ -484,7 +499,7 @@ function App() {
                   name="investmentAmount"
                   value={formData.investmentAmount}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#012169] focus:border-[#012169] transition-all duration-200"
                   required
                 >
                   <option value="">Select investment amount</option>
@@ -505,7 +520,7 @@ function App() {
                   name="investmentTimeline"
                   value={formData.investmentTimeline}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#012169] focus:border-[#012169] transition-all duration-200"
                   required
                 >
                   <option value="">Select timeline</option>
@@ -520,7 +535,7 @@ function App() {
             <div className="mt-8">
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200 inline-flex items-center justify-center"
+                className="w-full bg-gradient-to-r from-[#012169] to-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 inline-flex items-center justify-center"
               >
                 Schedule Consultation
                 <ChevronRight className="w-5 h-5 ml-2" />
@@ -530,7 +545,7 @@ function App() {
             <div className="mt-6 text-center">
               <p className="text-sm text-gray-600">
                 Or call us directly at{' '}
-                <a href="tel:+442071234567" className="text-blue-600 hover:text-blue-700 font-medium">
+                <a href="tel:+442071234567" className="text-[#012169] hover:text-blue-600 font-medium transition-colors duration-200">
                   +44 (0) 20 7123 4567
                 </a>
               </p>
@@ -540,7 +555,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-gradient-to-r from-gray-900 via-[#012169]/90 to-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
