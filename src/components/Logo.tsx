@@ -32,9 +32,9 @@ const Logo: React.FC<LogoProps> = ({
   };
 
   const moveColorClasses = {
-    default: 'text-red-400',
-    white: 'text-red-300',
-    dark: 'text-red-500'
+    default: 'text-orange-500',
+    white: 'text-orange-300',
+    dark: 'text-orange-600'
   };
 
   return (
@@ -42,7 +42,7 @@ const Logo: React.FC<LogoProps> = ({
       {/* TRM Logo - using existing RR logo temporarily */}
       <div className={`${sizeClasses[size]} flex items-center justify-center bg-white rounded-lg p-1 shadow-sm`}>
         <img 
-          src="/rr-logo-new.png" 
+          src="/rr-logo-new2.png" 
           alt="The Rate Move Logo"
           className={`${sizeClasses[size]} object-contain`}
         />
@@ -53,12 +53,13 @@ const Logo: React.FC<LogoProps> = ({
         <div className="flex flex-col">
           <div className={`${textSizeClasses[size]} font-bold ${colorClasses[variant]} leading-tight flex items-baseline`}>
             <span>The Rate</span>
-            <span className={`ml-2 ${moveColorClasses[variant]} font-extrabold italic transform -skew-x-12 bg-gradient-to-r ${variant === 'white' ? 'from-red-300 to-red-200' : 'from-red-400 to-red-500'} bg-clip-text text-transparent drop-shadow-sm`}>
+            <span className={`ml-2 ${moveColorClasses[variant]} font-extrabold italic transform -skew-x-12 bg-gradient-to-r ${variant === 'white' ? 'from-orange-300 to-orange-200' : 'from-orange-500 to-orange-600'} bg-clip-text text-transparent drop-shadow-sm`}>
               Move
             </span>
           </div>
           {size === 'lg' || size === 'xl' ? (
             <span className={`text-sm ${variant === 'white' ? 'text-red-100' : 'text-gray-600'} font-medium`}>
+            <span className={`text-sm ${variant === 'white' ? 'text-orange-100' : 'text-gray-600'} font-medium`}>
               UK Bond Investment Specialists
             </span>
           ) : null}
