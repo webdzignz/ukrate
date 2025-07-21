@@ -528,7 +528,6 @@ function App() {
             <div className="flex justify-center mb-6 animate-in fade-in-50 zoom-in-50 duration-800">
               <Logo size="lg" showText={false} />
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#002868] mb-6 bg-gradient-to-r from-[#002868] to-blue-700 bg-clip-text text-transparent animate-in fade-in-50 slide-in-from-top-6 duration-800 delay-200">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-6 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent animate-in fade-in-50 slide-in-from-top-6 duration-800 delay-200">
               About Rate & Return Connection
             </h2>
@@ -730,7 +729,7 @@ function App() {
       </section>
 
       {/* Footer with Contact Details and Copyright */}
-      <footer className="bg-gradient-to-r from-[#012169] to-[#C8102E] text-white relative overflow-hidden">
+      <footer className="bg-gradient-to-r from-[#002868] to-blue-900 text-white relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/10"></div>
         
@@ -743,7 +742,7 @@ function App() {
                 <div className="flex justify-center md:justify-start mb-6 transform hover:scale-105 transition-transform duration-500">
                   <Logo size="lg" variant="white" showText={true} />
                 </div>
-                <p className="text-red-100 text-sm leading-relaxed mb-4">
+                <p className="text-blue-100 text-sm leading-relaxed mb-4">
                   Your trusted financial intermediary connecting you with top-tier, regulated providers for secure bond investments.
                 </p>
               </div>
@@ -755,15 +754,15 @@ function App() {
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Phone className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-red-100 transition-colors duration-300">Phone</p>
-                      <p className="text-red-100 group-hover:text-white transition-colors duration-300">1800 BONDS (26637)</p>
+                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Phone</p>
+                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">1800 BONDS (26637)</p>
                     </div>
                   </div>
                   <div className="flex items-center justify-center group hover:scale-105 transform transition-all duration-300">
                     <Mail className="w-5 h-5 text-white mr-3 group-hover:animate-pulse" />
                     <div>
-                      <p className="font-semibold text-white group-hover:text-red-100 transition-colors duration-300">Email</p>
-                      <p className="text-red-100 group-hover:text-white transition-colors duration-300">info@rateandreturn.com</p>
+                      <p className="font-semibold text-white group-hover:text-blue-100 transition-colors duration-300">Email</p>
+                      <p className="text-blue-100 group-hover:text-white transition-colors duration-300">info@rateandreturn.com</p>
                     </div>
                   </div>
                 </div>
@@ -776,7 +775,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('about')}
-                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       About Us
                     </button>
@@ -784,7 +783,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('products')}
-                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       Bond Products
                     </button>
@@ -792,7 +791,7 @@ function App() {
                   <div>
                     <button
                       onClick={() => scrollToSection('contact')}
-                      className="block w-full md:w-auto text-red-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
+                      className="block w-full md:w-auto text-blue-100 hover:text-white transition-colors duration-300 hover:scale-105 transform"
                     >
                       Contact Us
                     </button>
@@ -817,7 +816,7 @@ function App() {
               {/* Additional Legal Info */}
               <div className="text-center md:text-right">
                 <p className="text-gray-700 text-sm">
-                  UK Financial Services | FCA Authorized Representative
+                  Australian Financial Services | AFSL Authorized Representative
                 </p>
               </div>
             </div>
