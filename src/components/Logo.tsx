@@ -42,7 +42,7 @@ const Logo: React.FC<LogoProps> = ({
       {/* Logo Image */}
       <div className={`${sizeClasses[size]} flex items-center justify-center bg-white rounded-lg shadow-sm`}>
         <img 
-          src="/rr-logo-new2.png" 
+          src="/logo111.png" 
           alt="The Rate Move Logo"
           className={`${sizeClasses[size]} object-contain p-1`}
         />
