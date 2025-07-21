@@ -322,7 +322,7 @@ function App() {
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
                       src="/rr-logo-new.png" 
-                      alt="Rate & Return Logo"
+                      alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -340,7 +340,7 @@ function App() {
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
                       src="/rr-logo-new.png" 
-                      alt="Rate & Return Logo"
+                      alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -358,7 +358,7 @@ function App() {
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
                       src="/rr-logo-new.png" 
-                      alt="Rate & Return Logo"
+                      alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -376,7 +376,7 @@ function App() {
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
                       src="/rr-logo-new.png" 
-                      alt="Rate & Return Logo"
+                      alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -532,12 +532,12 @@ function App() {
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-[#012169] mb-6 bg-gradient-to-r from-[#012169] to-red-700 bg-clip-text text-transparent animate-in fade-in-50 slide-in-from-top-6 duration-800 delay-200 flex items-center justify-center">
               <span className="mr-3">🏛️</span>
-              About Rate & Return Connection
+              About The Rate Move
               <span className="ml-3">🏛️</span>
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-gray-600 mb-8 leading-relaxed animate-in fade-in-50 slide-in-from-left-4 duration-800 delay-400">
-                At Rate & Return Connection, we embody traditional British values of trust, discretion, and excellence. 
+                At The Rate Move, we embody traditional British values of trust, discretion, and excellence. 
                 We don't sell investments — we forge connections between discerning British investors and the finest 
                 regulated financial partners. Our mission is quintessentially British: to understand your investment 
                 aspirations and match you with premier, FCA-regulated providers offering the most exclusive 
@@ -553,7 +553,7 @@ function App() {
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
                     <img 
                       src="/rr-logo-new.png" 
-                      alt="Rate & Return Logo"
+                      alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -564,7 +564,7 @@ function App() {
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
                     <img 
                       src="/rr-logo-new.png" 
-                      alt="Rate & Return Logo"
+                      alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
                   </div>
@@ -575,7 +575,7 @@ function App() {
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
                     <img 
                       src="/rr-logo-new.png" 
-                      alt="Rate & Return Logo"
+                      alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
                   </div>
