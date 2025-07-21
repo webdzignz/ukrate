@@ -321,7 +321,7 @@ function App() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
-                      src="/rr-logo-new.png" 
+                      src="/rr-logo-new2.png" 
                       alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
@@ -339,7 +339,7 @@ function App() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
-                      src="/rr-logo-new.png" 
+                      src="/rr-logo-new2.png" 
                       alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
@@ -357,7 +357,7 @@ function App() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
-                      src="/rr-logo-new.png" 
+                      src="/rr-logo-new2.png" 
                       alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
@@ -375,7 +375,7 @@ function App() {
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mr-4 p-2 shadow-md group-hover:shadow-lg transition-shadow duration-300">
                     <img 
-                      src="/rr-logo-new.png" 
+                      src="/rr-logo-new2.png" 
                       alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
@@ -548,7 +548,7 @@ function App() {
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-800">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
                     <img 
-                      src="/rr-logo-new.png" 
+                      src="/rr-logo-new2.png" 
                       alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
@@ -559,7 +559,7 @@ function App() {
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1000">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
                     <img 
-                      src="/rr-logo-new.png" 
+                      src="/rr-logo-new2.png" 
                       alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
@@ -570,7 +570,7 @@ function App() {
                 <div className="text-center group animate-in fade-in-50 slide-in-from-bottom-6 duration-800 delay-1200">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-xl mb-4 p-2 shadow-lg group-hover:shadow-xl transition-all duration-500 hover:scale-110 transform">
                     <img 
-                      src="/rr-logo-new.png" 
+                      src="/rr-logo-new2.png" 
                       alt="The Rate Move Logo"
                       className="w-full h-full object-contain"
                     />
